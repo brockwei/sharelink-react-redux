@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Metrophobic', sans-serif;
+}
+
+a {
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: white;
+  background: rgb(29, 29, 94);
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover 
+{
+   background:rgb(55, 55, 184);
+   text-decoration:none; 
+   cursor:pointer;  
+}
+input:focus{
+  outline: none;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Container styles */
+.app-container {
+  padding: 50px 100px;
+  display: flex;
+}
+
+/* Left Side Styles */
+.profile-container {
+  width: 230px;
+  text-align: center;
+}
+
+/* Right Side Styles */
+.links-container {
+  width: 100%;
+  padding: 0 30px;
+  text-align: center;
+}
+/* Add Link Form */
+.add-links-form input {
+  width: 100%;
+}
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: white;
+  background: rgb(29, 29, 94);
+  border: none;
+  border-radius: 10px;
+}
+input[type="submit"]:hover {
+  background: rgb(55, 55, 184);
+}
+.warning {
+  color: red;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+/* User Profile */
+.profile-picture {
+  width: 100px;
+  height: 100px;
+}
+
+/* Links List */
+.search-field {
+  width: 80%;
+  margin-left: 0;
+}
+.links-container ul {
+  margin: 0;
+}
+.link-item a {
+  color: black;
+  background: none;
+}
+.link-item a:hover {
+  color: rgb(55, 55, 184);
+}
+.link-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  background: rgb(222, 222, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
